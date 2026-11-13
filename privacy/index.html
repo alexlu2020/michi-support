@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Michi 日常旅算如何處理裝置上的計算紀錄、匯率連線及支援資料。">
+  <meta name="description" content="Michi 日常旅算如何處理裝置上的計算紀錄、匯率連線、App 內廣告及支援資料。">
   <title>Michi 日常旅算｜隱私權政策</title>
   <link rel="icon" href="../icon.png">
   <link rel="stylesheet" href="../style.css">
@@ -19,7 +19,14 @@
       <div><h1>隱私權政策</h1><p>適用於 Michi 日常旅算 App 及本支援網站。</p><p class="date">生效日期 <time datetime="2026-11-13">2026 年 11 月 13 日</time></p></div>
     </header>
     <article class="policy">
-      <section><h2>裝置上的資料</h2><p>Michi 無需註冊或登入。App 在裝置上保存計算紀錄、標記、偏好設定、旅遊設定與最後成功取得的參考匯率，用於下次開啟時恢復使用。計算金額、紀錄和旅遊設定不會傳送給匯率服務。Michi 不提供雲端同步，也未整合廣告或追蹤 SDK。</p></section>
+      <section><h2>裝置上的資料</h2><p>Michi 無需註冊或登入。App 在裝置上保存計算紀錄、標記、偏好設定、旅遊設定與最後成功取得的參考匯率，用於下次開啟時恢復使用。計算金額、紀錄和旅遊設定不會傳送給匯率服務。Michi 不提供雲端同步。</p></section>
+      <section id="advertising">
+        <h2>App 內廣告</h2>
+        <p>含廣告的 Michi 版本可能使用第三方廣告服務顯示廣告。App 請求廣告時，廣告服務可能依實際整合與授權狀態處理 IP 位址、裝置與系統資訊、廣告識別碼、廣告曝光及點擊等資料，用於投放廣告、衡量成效、維護服務安全及防止廣告詐欺。</p>
+        <p>廣告資料的處理及保存期限依實際使用的服務與設定而定。啟用廣告服務時，本頁會列出服務供應商、適用的隱私政策及可用的資料管理方式。</p>
+        <h3>在 iPhone 和 iPad 管理追蹤</h3>
+        <p>若廣告功能涉及跨其他公司 App 或網站的追蹤，App 會先透過 Apple 的「App 追蹤透明度」請求你的許可。你可以在「設定 → 隱私權與安全性 → 追蹤」變更許可。即使不允許追蹤，仍可能看到不依賴跨 App 或網站追蹤的廣告。</p>
+      </section>
       <section><h2>匯率連線與服務供應商</h2><p>App 透過 Cloudflare Workers 請求公開參考匯率。Worker 另行向 Frankfurter 取得公開匯率。App 只請求匯率資料，請求不包含你的計算內容或目的地。Cloudflare 在提供連線、維護安全與排查問題時，可能處理 IP 位址、請求時間、狀態碼等連線資訊。Cloudflare Workers Logs 依服務方案保留 3 或 7 天。詳見 <a href="https://developers.cloudflare.com/workers/observability/logs/workers-logs/">Workers Logs 說明</a>與 <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 隱私權政策</a>。</p></section>
       <section><h2>保留、刪除與選擇</h2><p>自動紀錄保留最新 100 筆。你可以在「標記」頁刪除個別標記或清除全部標記。刪除 App 可移除裝置上由 App 保存的資料。系統備份由你的裝置設定管理。關閉 App 的網路連線可停止新的匯率請求，仍可使用一般計算及先前保存的匯率。</p></section>
       <section><h2>網站與支援信件</h2><p>本網站由 GitHub Pages 託管。網站本身未加入追蹤程式、廣告或表單。GitHub 可能為網站服務與安全處理連線資訊，詳見 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隱私權聲明</a>。當你寄信聯絡支援時，開發者會使用你的寄件地址、信件內容及你主動提供的附件來回覆並處理請求。你可以來信要求刪除支援往來資料。</p></section>
