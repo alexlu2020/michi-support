@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Michi 日常旅算如何處理裝置上的計算紀錄、匯率連線及支援資料。">
+  <title>Michi 日常旅算｜隱私權政策</title>
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="top wrap">
+    <a class="brand" href="../"><img src="../icon.png" width="42" height="42" alt="">Michi 日常旅算</a>
+    <nav aria-label="主要導覽"><a href="../">支援</a><a href="./" aria-current="page">隱私權政策</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <header class="hero policy-hero">
+      <div><h1>隱私權政策</h1><p>適用於 Michi 日常旅算 App 及本支援網站。</p><p class="date">生效日期 <time datetime="2026-11-13">2026 年 11 月 13 日</time></p></div>
+    </header>
+    <article class="policy">
+      <section><h2>裝置上的資料</h2><p>Michi 無需註冊或登入。App 在裝置上保存計算紀錄、標記、偏好設定、旅遊設定與最後成功取得的參考匯率，用於下次開啟時恢復使用。計算金額、紀錄和旅遊設定不會傳送給匯率服務。Michi 不提供雲端同步，也未整合廣告或追蹤 SDK。</p></section>
+      <section><h2>匯率連線與服務供應商</h2><p>App 透過 Cloudflare Workers 請求公開參考匯率。Worker 另行向 Frankfurter 取得公開匯率。App 只請求匯率資料，請求不包含你的計算內容或目的地。Cloudflare 在提供連線、維護安全與排查問題時，可能處理 IP 位址、請求時間、狀態碼等連線資訊。Cloudflare Workers Logs 依服務方案保留 3 或 7 天。詳見 <a href="https://developers.cloudflare.com/workers/observability/logs/workers-logs/">Workers Logs 說明</a>與 <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 隱私權政策</a>。</p></section>
+      <section><h2>保留、刪除與選擇</h2><p>自動紀錄保留最新 100 筆。你可以在「標記」頁刪除個別標記或清除全部標記。刪除 App 可移除裝置上由 App 保存的資料。系統備份由你的裝置設定管理。關閉 App 的網路連線可停止新的匯率請求，仍可使用一般計算及先前保存的匯率。</p></section>
+      <section><h2>網站與支援回報</h2><p>本網站由 GitHub Pages 託管。網站本身未加入追蹤程式、廣告或表單。GitHub 可能為網站服務與安全處理連線資訊。若你透過 GitHub Issues 送出回報，你的帳號名稱及發文內容會公開，並由開發者用來處理你提出的問題。回報會留在 GitHub，直到內容遭移除。GitHub 的資料處理方式與保留規則請參考 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隱私權聲明</a>。</p></section>
+      <section><h2>聯絡及資料權利</h2><p>Michi 由 GitHub 帳號 <strong>alexlu2020</strong> 的開發者營運。如有隱私疑問、想撤回先前提供的資訊，或希望移除你提交的支援資料，請透過<a href="../#contact">支援頁</a>聯絡。請先簡述需求，避免在公開留言附上個人資料。政策有更新時，會在此頁公布並標示生效日期。</p></section>
+    </article>
+  </main>
+  <footer class="wrap foot"><span>Michi 日常旅算</span><a href="../">返回支援</a></footer>
+</body>
+</html>
